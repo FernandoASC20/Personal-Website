@@ -1,0 +1,49 @@
+body{
+    background-color: #060d2f;
+    
+}
+div{
+    border: solid;
+    border-color: #97bbfe;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#about{  
+    border: none;
+    padding-top: 1px;
+    height: 200px;
+    width: 300px;
+    color:  #0096d3;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#size{
+    font-size: 30px;
+
+}
+#skills{
+    border: none;
+    color: rgb(90, 161, 241);
+    
+}
+#name{
+    border:none;
+    text-align: center;
+    color: #546ccf;
+}
+.nameAbout{
+    display: inline-block;
+}
+#info{
+    border: none;
+    display:flex;
+    justify-content: space-around;
+}
+#projects{
+    text-align:center;
+    color: cyan;
+    font-size: large;
+}
+
