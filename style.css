@@ -2,6 +2,13 @@ body{
     background-color: #060d2f;
     
 }
+#navBar{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 40px;
+    padding: 1px;
+}
 div{
     border: solid;
     border-color: #97bbfe;
@@ -9,41 +16,69 @@ div{
     border-radius: 10px;
     margin: 30px;
 }
-
-#about{  
-    border: none;
-    padding-top: 1px;
-    height: 200px;
-    width: 300px;
-    color:  #0096d3;
-    margin-left: 30px;
-    margin-bottom: 30px;
+.contA{
+    display: flex;
 }
-#size{
+#about{  
+    border:none;
+    font-size: 25px;
+    height: 150px;
+    width: 200px;
+    color: white;
+}
+#aInfo{
+    border:none;
     font-size: 30px;
-
+    color: white;
+    width: 1200px;
+    height: 300px;
+    padding-top: 25px;
 }
 #skills{
-    border: none;
-    color: rgb(90, 161, 241);
-    
-}
-#name{
     border:none;
-    text-align: center;
-    color: #546ccf;
+    color: white;
+    width: 300px;
+    height: 100px;
 }
-.nameAbout{
-    display: inline-block;
+#sInfo{
+    border:none;
+    width: 1000px;
+    color: white;
+    font-size: 30px;
 }
-#info{
-    border: none;
-    display:flex;
-    justify-content: space-around;
+.contS{
+    display: flex;
 }
-#projects{
-    text-align:center;
+
+#topInfo{
+    border:none;
+    text-align: left;
+    font-size: 25px;
     color: cyan;
-    font-size: large;
 }
+img{
+    height: 300px;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.parent {
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+#projectDiv{
+    border:none;
+}
+#pokemon{
+    color: cyan;
+    width: 350px;
+    height: 25px;
+}
+#ball{
+    color: red;
+    text-align: center;
+}
+
+
 
