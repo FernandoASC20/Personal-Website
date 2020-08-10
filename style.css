@@ -69,14 +69,27 @@ img{
 }
 #projectDiv{
     border:none;
+    display:flex;
+    justify-content: space-evenly;
+}
+.innerDiv{
+    border:none;
+    margin: 20px;
+    width: 300px;
 }
 #pokemon{
     color: cyan;
-    width: 350px;
-    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;      
 }
 #ball{
-    color: red;
+    color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#collision{
+    color:cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
